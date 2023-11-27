@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In Page</title>
+    <style>
+        * {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        button {
+            margin-top: 5px;
+        }
+
+        input {
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+
+        form {
+            text-align: center;
+        }
+
+        #e {
+            margin-right: 110px;
+        }
+
+        #p {
+            margin-right: 80px;
+        }
+        #userid
+        {
+            color:red;
+        }
+        a
+        {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        <center>Log In</center>
+    </h1>
+    <form action="/log-in" method="post">
+        <label for="emai" id="e">Email</label>
+        <br>
+        <input type="email" id="emai" name="inputEmail">
+        <br>
+        <label for="passwor" id="p">Password</label>
+        <br>
+        <input type="password" id="passwor" name="inputPassword">
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    <%if(userExists){%>
+    <h6 id="userid"><center>User not Exists</center></h6>
+    <%}%>
+    <br>
+    <center><a href="/delete">To Delete Account</a></center>
+</body>
+
+</html>

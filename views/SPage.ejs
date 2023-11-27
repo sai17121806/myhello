@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <style>
+        * {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        button {
+            margin-top: 5px;
+        }
+
+        input {
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+
+        form {
+            text-align: center;
+        }
+
+        #n {
+            margin-right: 110px;
+        }
+
+        #e {
+            margin-right: 110px;
+        }
+
+        #p {
+            margin-right: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        <center>Sign Up</center>
+    </h1>
+    <form action="/sign-up" method="post">
+        <label for="nam" id="n">Name</label>
+        <br>
+        <input type="text" id="nam" name="inputName" required>
+        <br>
+        <label for="emai" id="e">Email</label>
+        <br>
+        <input type="email" id="emai" name="inputEmail" required>
+        <br>
+        <label for="passwor" id="p">Password</label>
+        <br>
+        <input type="password" id="passwor" name="inputPassword" required>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
