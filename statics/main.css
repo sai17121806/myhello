@@ -1,0 +1,102 @@
+main
+{
+    top:100px;
+    position:relative;
+    height: auto;
+    background-color: rgb(43, 1, 78);
+}
+
+main-first-bar
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+main-second-bar
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+main-left-bar
+{
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+
+main-right-bar
+{
+    width: 40%;
+}
+
+main-left-first-bar
+{
+    font-size:45px;
+    font-weight: bold;
+    color:white;
+    line-height: 60px;
+    padding-bottom: 20px;
+}
+
+main-left-second-bar
+{
+    line-height: 25px;
+    color:white;
+    padding-bottom: 20px;
+}
+
+#start-tracking
+{
+    border-radius: 25px;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:20px;
+    padding-right:20px;
+    background-color: rgb(182, 86, 211);
+    color:white;
+}
+
+#start-tracking:hover
+{
+    box-shadow: 0px 0px 10px rgb(227, 129, 252);
+    background-color: rgb(43, 1, 78);
+    transition:0.5s;
+}
+
+#toggl-track-img
+{
+    width: 500px;
+    box-shadow: 0px 0px 20px rgb(208, 113, 236);
+    border-radius: 10px;
+    margin-top:80px;
+}
+
+
+#toggl-track-img:hover
+{
+    box-shadow: 0px 0px 50px rgb(208, 113, 236);
+    transition: 0.5s;
+}
+
+main-second-bar
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    color:white;
+    justify-content: space-evenly;
+}
+
+main-second-first-bar
+{
+    display:flex;
+    justify-content: center;
+    padding:50px;
+}

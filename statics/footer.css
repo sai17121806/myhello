@@ -1,0 +1,236 @@
+footer
+{
+    margin-top:100px;
+    width: 100%;
+    height:auto;
+    background-color: rgb(43, 1, 78);
+    display: flex;
+    flex-direction: column;
+}
+
+#toggl-logo-footer
+{
+    padding-left:50px;
+    padding-top:50px;
+    width: 80px;
+}
+
+footer-middle
+{
+    height: 300px;
+    padding:50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-items
+{
+    color:rgb(162, 103, 211);
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-items:hover
+{
+    color:white;
+}
+
+#footer-global
+{
+    font-size:20px;
+    font-weight: bold;
+    padding:10px 0px;
+}
+
+.global-items
+{
+    padding:5px;
+    color:white;
+}
+
+.global-items:hover
+{
+    color:rgb(162, 103, 211);
+}
+
+footer-end
+{
+    height: 60px;
+    background-color:rgb(90, 23, 145);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color:white;
+}
+
+#toggle-track-logo
+{
+    width: 100px;
+}
+
+hidden-footer-middle
+{
+    display: flex;
+    flex-direction: column;
+}
+
+hidden-footer-middle
+{
+    display: none;
+}
+
+
+
+@media(max-width:1200px) and (min-width:0px)
+{
+    header-right
+    {
+        display:none;
+    }
+    hidden-header-right
+    {
+       display: block;
+    }
+    #toggl-track-img
+    {
+        width: 400px;
+    }
+    main-left-second-bar
+    {
+        font-size: 12px;
+    }
+
+    header-left
+    {
+        margin-right:50px;
+    }
+
+    #hidden-toggl-logo
+    {
+        width:50px;
+    }
+    main-left-first-bar
+    {
+        font-size:35px;
+    }
+} 
+
+@media(max-width:970px) and (min-width:0px)
+{
+    #toggl-track-img
+    {
+        width: 300px;
+    }
+    main-left-second-bar
+    {
+        font-size: 11px;
+    }
+    main-left-first-bar
+    {
+        font-size:30px;
+        line-height: 40px;
+    }
+}
+
+@media(max-width:800px) and (min-width:0px)
+{
+    header-left
+    {
+        display:none;
+    }
+    hidden-header-left
+    {
+        display: flex;
+        margin-left: 50px;
+    }
+    hidden-header-right
+    {
+        display: flex;
+        margin-right: 50px;
+    }
+    header
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media(max-width:700px) and (min-width:0px)
+{
+    main-first-bar
+    {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        justify-content: space-evenly;
+    }
+    main-left-bar,main-right-bar
+    {
+        width: 80%;
+    }
+    main-left-first-bar,main-left-second-bar
+    {
+        padding-top:20px;
+    }
+    main-left-third-bar
+    {
+        padding-top:40px;
+        padding-bottom:40px;
+    }
+    #toggl-track-img
+    {
+        margin-top:0px;
+    }
+}
+
+@media(max-width:470px) and (min-width:0px)
+{
+    footer-middle
+    {
+        display: none;
+    }
+
+    hidden-footer-middle
+    {
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+    hidden-footer-middle1
+    {
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 50px;
+    }
+    hidden-footer-middle2
+    {
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 50px;
+    }
+    hidden-footer-middle3
+    {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+    #toggle-track-logo
+    {
+        width: 80px;
+    }
+    footer-end-discover
+    {
+        display:flex;
+        justify-content: center;
+    }
+}
+
+@media(max-width:440px) and (min-width:0px)
+{
+    #toggle-track-logo
+    {
+        width: 50px;
+    }
+}
